@@ -4,6 +4,7 @@
 
 - `node.js`: `22.*`
 - `yarn`: `1.22.*`
+- `mongoDB`
 
 ## Development
 
@@ -14,8 +15,9 @@
 
 ### Native running
 
-4. run `yarn db:start`
-5. run `yarn start`
+4. install `mongoDB`
+5. run `yarn db:start`
+6. run `yarn start`
 
 ### Running in docker
 
