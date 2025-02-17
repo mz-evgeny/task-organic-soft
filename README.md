@@ -1,4 +1,4 @@
-# Test task Organic soft
+# Test task for Organic soft
 
 ## Pre requirements
 
@@ -9,13 +9,14 @@
 
 1. install `node`, `yarn`
 2. run `yarn install`
-3. [Native running](#native-running) OR [Running in docker](#running-in-docker)
+3. run `yarn build`
+4. [Native running](#native-running) OR [Running in docker](#running-in-docker)
 
 ### Native running
 
-3. run `yarn db:start`
-4. run `yarn start`
+4. run `yarn db:start`
+5. run `yarn start`
 
 ### Running in docker
 
-3. run `docker-compose up`
+4. run `docker-compose up`
